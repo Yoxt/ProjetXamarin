@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/item_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Université de Valenciennes et du Hainaut Cambrésis"
+        android:textColor="#94cd61"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:text="L’Université de Valenciennes et du Hainaut Cambrésis (UVHC) accueille plus de 10 800 étudiants sur des campus  à taille humaine à Valenciennes, Cambrai et Maubeuge."
+        android:textSize="15sp"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Elle donne la possibilité de se former à un métier en proposant 150 parcours de formations professionnalisants du bac 2 + au bac 8, autour de 3 domaines :"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/subtext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="50dp"
+        android:text="- Sciences, Technologies, Santé"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="50dp"
+        android:text=""
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/subtext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="- Droit, Economie, Gestion"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/subtext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="- Arts, Lettres, Langues et Sciences Humaines et Sociales"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Elle accueille des publics en formation initiale, en formation continue et parmi les toutes premières en nombre d’étudiants suivent un cursus par apprentissage."
+        android:textSize="15sp"
+        android:textColor="#000000" />
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="En plus de la qualité de ses formations, aux contenus alimentés notamment par 7 laboratoires de recherche, l’UVHC est reconnue pour son taux d’insertion professionnelle, parmi les meilleurs de France !"
+        android:textSize="15sp"
+        android:textColor="#000000" />
+</LinearLayout>

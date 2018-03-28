@@ -1,0 +1,102 @@
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Annotations.dll.stamp
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll.stamp
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll.stamp
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll.stamp
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Media.Compat.dll.stamp
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll.stamp
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll.stamp
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll.stamp
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll.stamp
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\Domaine informatique istv.csprojResolveAssemblyReference.cache
+C:\Users\jeffg\source\repos\Domaine informatique istv\Domaine informatique istv\obj\Debug\Domaine informatique istv.csproj.CoreCompileInputs.cache
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Annotations.dll.stamp
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Compat.dll.stamp
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.UI.dll.stamp
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Core.Utils.dll.stamp
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Media.Compat.dll.stamp
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Fragment.dll.stamp
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll.stamp
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll.stamp
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll.stamp
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\Domaine informatique istv.csproj.CoreCompileInputs.cache
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Domaine informatique istv.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Domaine informatique istv.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Domaine_informatique_istv.Domaine_informatique_istv.apk
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Domaine_informatique_istv.Domaine_informatique_istv-Signed.apk
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Glide.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\PagerTabIndicator.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Refractored.PagerSlidingTabStrip.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Refractored.PagerSlidingTabStrip.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Refractored.PagerSlidingTabStrip.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Refractored.PagerSlidingTabStrip.dll.mdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\Domaine informatique istv.csprojResolveAssemblyReference.cache
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\Domaine informatique istv.csproj.CopyComplete
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\Domaine informatique istv.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\Domaine informatique istv.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\android\bin\Domaine_informatique_istv.Domaine_informatique_istv.apk
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\pager_item.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\secondpage.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\pager_contact.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\pager_help.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\licence_informatique.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\deust_iosi.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\master_tnsi.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\master_ircoms.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\pager_formation.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\fragment_sample.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\layout\main.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\values\strings.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\drawable\green_button.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\values\styles.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\drawable\logo.png
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\drawable\icon.png
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\drawable\ic_action_overflow.png
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\drawable\xs.png
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\menu\actionbar_main.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\res\values\themes.xml
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\R.cs.flag
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\uploadflags.txt
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Microsoft.CSharp.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Mono.Android.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Mono.Android.Export.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\mscorlib.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\System.Core.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\System.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\System.Xml.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\System.Xml.Linq.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\System.Net.Http.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\System.Runtime.Serialization.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\System.ServiceModel.Internals.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Mono.Security.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\System.ComponentModel.Composition.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\Microsoft.CSharp.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\Mono.Android.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\Mono.Android.Export.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\mscorlib.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\System.Core.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\System.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\System.Xml.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\System.Xml.Linq.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\System.Net.Http.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\System.Runtime.Serialization.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\Mono.Security.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\Domaine informatique istv.dll.mdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\Refractored.PagerSlidingTabStrip.dll.mdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Domaine informatique istv.dll.mdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\android\assets\Domaine informatique istv.dll.mdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\android\assets\Refractored.PagerSlidingTabStrip.dll.mdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\bin\Debug\Domaine informatique istv.dll
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\Domaine informatique istv.dll.mdb
+C:\Users\Jerome\Desktop\Projet\domaine informatique\Domaine informatique istv\Domaine informatique istv\obj\Debug\linksrc\Refractored.PagerSlidingTabStrip.dll.mdb

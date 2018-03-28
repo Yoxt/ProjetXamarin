@@ -1,0 +1,2 @@
+android.app.Application
+Domaine_informatique_istv.Domaine_informatique_istv

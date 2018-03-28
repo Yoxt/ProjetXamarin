@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Domaine_informatique_istv.Domaine_informatique_istv" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="15" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:label="Domaine_informatique_istv" android:icon="@drawable/icon" android:theme="@style/CustomActionBarTheme" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="deustIOSI_Activity" android:name="md5f5effef2dab6cbbf5d7f071c62ea684a.deustIOSI_Activity" />
+    <activity android:label="formationActivity" android:name="md5f5effef2dab6cbbf5d7f071c62ea684a.formationActivity" />
+    <activity android:label="licenceInfoActivity" android:name="md5f5effef2dab6cbbf5d7f071c62ea684a.licenceInfoActivity" />
+    <activity android:icon="@drawable/icon" android:label="Domaine_informatique_istv" android:name="md5f5effef2dab6cbbf5d7f071c62ea684a.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="masterIRCOMS_Activity" android:name="md5f5effef2dab6cbbf5d7f071c62ea684a.masterIRCOMS_Activity" />
+    <activity android:label="masterTNSI_Activity" android:name="md5f5effef2dab6cbbf5d7f071c62ea684a.masterTNSI_Activity" />
+    <activity android:label="SecondPage" android:name="md5f5effef2dab6cbbf5d7f071c62ea684a.SecondPage" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Domaine_informatique_istv.Domaine_informatique_istv.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Domaine_informatique_istv.Domaine_informatique_istv" />
+      </intent-filter>
+    </receiver>
+    <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+  </application>
+</manifest>

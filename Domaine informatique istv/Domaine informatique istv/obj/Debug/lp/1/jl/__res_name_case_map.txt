@@ -1,0 +1,4 @@
+values/attrs.xml;values/attrs.xml
+values/colors.xml;values/colors.xml
+values/config.xml;values/config.xml
+values/strings.xml;values/strings.xml

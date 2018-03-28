@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/formation_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Université de Valenciennes et du Hainaut Cambrésis"
+        android:textColor="#94cd61"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/formation_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:text="Licence informatique"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#FFFFFF" />
+    <TextView
+        android:id="@+id/formation_subtxt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="70dp"
+        android:text="6 Semestres"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/formation_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:text="Deust IOSI"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#FFFFFF" />
+    <TextView
+        android:id="@+id/formation_subtxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="70dp"
+        android:text="4 Semestres"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/formation_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:text="Master TNSI"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#FFFFFF" />
+    <TextView
+        android:id="@+id/formation_subtxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="70dp"
+        android:text="4 Semestres"
+        android:textColor="#000000" />
+    <Button
+        android:id="@+id/formation_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        android:text="Master IRCOMS"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#FFFFFF" />
+    <TextView
+        android:id="@+id/formation_subtxt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="70dp"
+        android:text="4 Semestres"
+        android:textColor="#000000" />
+</LinearLayout>
