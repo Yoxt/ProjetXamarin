@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/de_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Deust IOSI"
+        android:textColor="#94cd61"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/de_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Description :"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/de_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Le DEUST Informatique d'Organisation et Système d'Information (IOSI) a pour but de former les techniciens supérieurs dans les domaines de l'informatique de gestion (base de données, systèmes d'information) et des nouvelles technologies (web, multimédia). Les diplômés sont en capacité de planifier et suivre les développements informatiques, assurer la programmation et le codage d'une application, rédiger une documentation d’utilisation, assurer la maintenance d'applications informatiques, participer à l'administration d'une base de données, à la gestion d'un site web ou la surveillance d'un réseau d'entreprise."
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/de_subtitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Débouchés professionnels :"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/de_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Les diplômés travaillent dans des sociétés de services en ingénierie informatique, dans les services informatiques d'entreprises ou d'administrations, dans des entreprises de construction d'ordinateurs ou de matériels périphériques…."
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/de_txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Ils occupent des fonctions liées au développement d’applications et d’outils spécifiques, à la gestion du parc de matériel, des systèmes, des logiciels applicatifs, des systèmes de gestion des bases de données, d’administration de réseaux, d’assistance, d’écoute des utilisateurs…"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="italic" />
+</LinearLayout>

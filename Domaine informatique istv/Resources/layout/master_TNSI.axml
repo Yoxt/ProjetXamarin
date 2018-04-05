@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:background="@android:color/white">
+    <TextView
+        android:id="@+id/tnsi_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Master TNSI"
+        android:textColor="#94cd61"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tnsi_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Description :"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/tnsi_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Le Master Technologies Nouvelles des Systèmes d’Information (TNSI) a pour objectif de former des cadres ou ingénieurs de haut niveau de compétences pour la conception et la mise en œuvre des systèmes d’information, l’ingénierie de projets informatiques, le développement et l’intégration d’application, le génie logiciel, les systèmes d’information distribués, les interactions homme-machine et les nouvelles architectures embarquées. Cette formation permet d’aborder au mieux le monde industriel (SSII, PME/PMI, grandes entreprises, etc.) sans oublier les collectivités locales qui ont aussi des besoins importants sous l’angle des systèmes d’information."
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/tnsi_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Le second objectif est de former de futurs chercheurs possédant des compétences théoriques dans le domaine de la recherche informatique telle qu'elle est développée notamment dans le laboratoire associé au CNRS LAMIH. Une grande partie de l'équipe d'enseignants de cette formation sont d'ailleurs des chercheurs concernés par des thématiques en relation avec les cours proposés en Master."
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/tnsi_subtitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Débouchés professionnels :"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/tnsi_txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Ingénieur développement en SSII : il est chargé de la spécification, de la conception, de la réalisation (nécessité de connaître un ensemble de langages) et des tests unitaires, d'intégration et de validation des logiciels. Certains de ces logiciels pourront être des systèmes interactifs d'aide à la décision."
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/tnsi_txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:text="Consultant en système d'information et système d'information décisionnel / auditeur informatique : il anticipe et fait mûrir les nouveaux projets par une sensibilisation à l'apport des technologies nouvelles et une analyse prospective des processus métier. Il assiste la maîtrise d'ouvrage pour la définition des besoins et des solutions à mettre en œuvre. Généralement, il exerce son activité au sein d'une SSII, d'une société de conseil ou de façon libérale."
+        android:textColor="#000000"
+        android:textSize="13sp"
+        android:textStyle="italic" />
+  </LinearLayout>
+</ScrollView>
