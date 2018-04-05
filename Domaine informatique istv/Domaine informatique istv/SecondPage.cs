@@ -18,12 +18,12 @@ namespace Domaine_informatique_istv
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            
             FragmentTransaction transaction = FragmentManager.BeginTransaction();
             SlidingTabsFragment fragment = new SlidingTabsFragment();
-            transaction.Replace(Resource.Id.sample_content_fragment, fragment);
-            transaction.Commit();
+            transaction.Replace(Resource.Id.sample_content_fragment, fragment); //Remplace sampe_content_fragment avec fragment
+            transaction.Commit(); //Applique la transaction
             SetContentView(Resource.Layout.SecondPage);
-
         }
 
         public override bool OnCreateOptionsMenu(IMenu menu)
@@ -31,5 +31,7 @@ namespace Domaine_informatique_istv
             MenuInflater.Inflate(Resource.Menu.actionbar_main, menu);
             return base.OnCreateOptionsMenu(menu);
         }
+
+       
     }
 }

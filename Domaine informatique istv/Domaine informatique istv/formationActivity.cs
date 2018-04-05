@@ -19,43 +19,10 @@ namespace Domaine_informatique_istv
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.pager_formation);
+            
 
-
-            Button formation_button1 = FindViewById<Button>(Resource.Id.formation_button1);
-            formation_button1.Click += (sender, e) =>
-            {
-                //open the new acitvity
-                //Setup a new acitivty
-                var intent = new Intent(this, typeof(licenceInfoActivity));
-                StartActivity(intent);
-            };
-
-            Button formation_button2 = FindViewById<Button>(Resource.Id.formation_button2);
-            formation_button2.Click += (sender, e) =>
-            {
-                //open the new acitvity
-                //Setup a new acitivty
-                var intent = new Intent(this, typeof(deustIOSI_Activity));
-                StartActivity(intent);
-            };
-            Button formation_button3 = FindViewById<Button>(Resource.Id.formation_button3);
-            formation_button3.Click += (sender, e) =>
-            {
-                //open the new acitvity
-                //Setup a new acitivty
-                var intent = new Intent(this, typeof(masterTNSI_Activity));
-                StartActivity(intent);
-            };
-
-            Button formation_button4 = FindViewById<Button>(Resource.Id.formation_button4);
-            formation_button4.Click += (sender, e) =>
-            {
-                //open the new acitvity
-                //Setup a new acitivty
-                var intent = new Intent(this, typeof(masterIRCOMS_Activity));
-                StartActivity(intent);
-            };
+            
         }
+
     }
 }

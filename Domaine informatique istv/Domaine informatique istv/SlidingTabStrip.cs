@@ -14,34 +14,34 @@ using Android.Widget;
 
 namespace Domaine_informatique_istv
 {
-    public class SlidingTabStrip : LinearLayout
+    public class SlidingTabStrip : LinearLayout //Instauration de la bande 
     {
         //Variables globales necessaire pour cette classe
-        private const int DEFAULT_BOTTOM_BORDER_THICKNESS_DIPS = 2;
-        private const byte DEFAULT_BOTTOM_BORDER_COLOR_ALPHA = 0X26;
-        private const int SELECTED_INDICATOR_THICKNESS_DIPS = 8;
-        private int[] INDICATOR_COLORS = { 0x19A319, 0x0000FC };
-        private int[] DIVIDER_COLORS = { 0xC5C5C5 };
+        private const int DEFAULT_BOTTOM_BORDER_THICKNESS_DIPS = 2; //Epaisseur par défault de la bordure du bas de la bande
+        private const byte DEFAULT_BOTTOM_BORDER_COLOR_ALPHA = 0X26; 
+        private const int SELECTED_INDICATOR_THICKNESS_DIPS = 8; //Epaisseur par défault de la barre indicateur 
+        private int[] INDICATOR_COLORS = { 9751905, 9751905 }; //Couleurs entre lesquelles la barre indicateur va tourner 
+        private int[] DIVIDER_COLORS = { 9751905 }; //Couleur de la petite barre séparant les onglets 
 
-        private const int DEFAULT_DIVIDER_THICKNESS_DIPS = 1;
-        private const float DEFAULT_DIVIDER_HEIGHT = 0.5f;
+        private const int DEFAULT_DIVIDER_THICKNESS_DIPS = 1; //Epaisseur par défault de la petite barre séparant les onglets
+        private const float DEFAULT_DIVIDER_HEIGHT = 0.5f; //Taille par défault de la petite barre séparant les onglets
 
-        //Botton border
-        private int mBottomBorderThickness;
-        private Paint mBottomBorderPaint;
-        private int mDefaultBottomBorderColor;
+        //Bordure du bas
+        private int mBottomBorderThickness; //Epaisseur
+        private Paint mBottomBorderPaint; //Peinture
+        private int mDefaultBottomBorderColor; //Code couleur en entier
 
-        //Indicator : little horizontal scrollbar
-        private int mSelectedIndicatorThickness;
-        private Paint mSelectedIndicatorPaint;
+        //Indicateur : petite barre nous indiquant dans quelle onglet nous nous trouvons
+        private int mSelectedIndicatorThickness; //Epaisseur
+        private Paint mSelectedIndicatorPaint; //Peinture
 
-        //Divider
-        private Paint mDividerPaint;
-        private float mDividerHeight;
+        //Diviseur: petit barre séparant les onglets
+        private Paint mDividerPaint; //Peinture
+        private float mDividerHeight; //Taille
 
-        //Selected position and offset
-        private int mSelectedPosition;
-        private float mSelectionOffSet;
+        //Position selectionné et décalage de sélection
+        private int mSelectedPosition; //position
+        private float mSelectionOffSet; 
 
 
         //Tab colorizer
@@ -49,7 +49,7 @@ namespace Domaine_informatique_istv
         private SimpleTabColorizer mDefaultTabColorizer;
 
 
-        //Constructor
+        //Constructeur
         public SlidingTabStrip (Context context) : this(context, null)
         { }
         
@@ -57,12 +57,12 @@ namespace Domaine_informatique_istv
         {
             SetWillNotDraw(false);
 
-            float density = Resources.DisplayMetrics.Density;
+            float density = Resources.DisplayMetrics.Density; //Obtenir la densité de l'appareil 
 
-            TypedValue outValue = new TypedValue();
-            context.Theme.ResolveAttribute(Android.Resource.Attribute.ColorForeground, outValue, true);
-            int ThemeForeGround = outValue.Data;
-            mDefaultBottomBorderColor = SetColorAlpha(ThemeForeGround, DEFAULT_BOTTOM_BORDER_COLOR_ALPHA);
+            TypedValue outValue = new TypedValue(); 
+            context.Theme.ResolveAttribute(Android.Resource.Attribute.ColorForeground, outValue, true); //Recupere un entier correspondant à la couleur de font et remplis outValue avec
+            int ThemeForeGround = outValue.Data; 
+            mDefaultBottomBorderColor = SetColorAlpha(ThemeForeGround, DEFAULT_BOTTOM_BORDER_COLOR_ALPHA); //Fixe la couleur de de la bordure du bas avec celle récupérée précédement
 
             mDefaultTabColorizer = new SimpleTabColorizer();
             mDefaultTabColorizer.IndicatorColors = INDICATOR_COLORS;
@@ -110,46 +110,52 @@ namespace Domaine_informatique_istv
                 this.Invalidate(); 
             }
         }
+
+        //Obtenir une couleur à partir de son code en entier
         private Color GetColorFromInteger(int color)
         {
             return Color.Rgb(Color.GetRedComponent(color), Color.GetGreenComponent(color), Color.GetBlueComponent(color));
         }
 
+        //Fixe l'opacité d'une couleur
         private int SetColorAlpha(int color, byte alpha)
         {
             return Color.Argb(alpha, Color.GetRedComponent(color), Color.GetGreenComponent(color), Color.GetBlueComponent(color));
         }
 
+        //Actualise la position et le décalage lorsque l'on change d'onglet
         public void OnViewPagerPageChanged(int position, float positionOffSet)
         {
             mSelectedPosition = position;
             mSelectionOffSet = positionOffSet;
-            this.Invalidate();
+            this.Invalidate(); //Permet de redessiner encore et encore
         }
 
-        protected override void OnDraw(Canvas canvas)
+        //Dessine La bande
+        protected override void OnDraw(Canvas canvas) //Canvas permet au "view" de se dessiner
         {
-            int height = Height;
-            int tabCount = ChildCount;
-            int dividerHeightPx = (int)(Math.Min(Math.Max(0f, mDividerHeight), 1f) * height);
-            SlidingTabScrollView.TabColorizer tabColorizer = mCustomTabColorizer != null ? mCustomTabColorizer : mDefaultTabColorizer;
+            int height = Height; //Height : Retourne la taille de la vue (View) 
+            int tabCount = ChildCount; //ChildCount : Retourne le nombre de fils dans le groupe (ViewGroup)
+            int dividerHeightPx = (int)(Math.Min(Math.Max(0f, mDividerHeight), 1f) * height); //Fixe la taille de la barre séparant les différents onglets
+            SlidingTabScrollView.TabColorizer tabColorizer = mCustomTabColorizer != null ? mCustomTabColorizer : mDefaultTabColorizer; //On vérifie si le mCustomTabColorizer est null, si il ne l'est pas cela signifie que l'utilisateur utilise son propre mCustomTabColorizer autrement on utilise notre mDefaultTabColorizer
 
-            //Thick Colored underline below the current selection
-            if (tabCount > 0)
+            //Indicateur
+            if (tabCount > 0) //Sinon cela signifie qu'il n'y a pas d'onglet
             {
-                View SelectedTitle = GetChildAt(mSelectedPosition);
-                int left = SelectedTitle.Left;
-                int right = SelectedTitle.Right;
+                View SelectedTitle = GetChildAt(mSelectedPosition); //On récupère le view à la position sélectionnée 
+                int left = SelectedTitle.Left; //Position gauche de ce view
+                int right = SelectedTitle.Right; //Position droite de ce view
                 int color = tabColorizer.GetIndicatorColor(mSelectedPosition);
 
-                if (mSelectionOffSet > 0f && mSelectedPosition < (tabCount - 1))
+                if (mSelectionOffSet > 0f && mSelectedPosition < (tabCount - 1)) //Si le mSelectionOffSet est égal à 0 cela signifie que le glissement est finis
                 {
-                    int nextColor = tabColorizer.GetIndicatorColor(mSelectedPosition + 1);
+                    //Change la couleur de l'indicateur 
+                    int nextColor = tabColorizer.GetIndicatorColor(mSelectedPosition + 1); 
                     if(color != nextColor)
                     {
                         color = blendColor(nextColor, color, mSelectionOffSet); 
                     }
-
+                    //Change de view et actualise gauche et droite
                     View nextTitle = GetChildAt(mSelectedPosition + 1);
                     left = (int)(mSelectionOffSet * nextTitle.Left + (1.0f - mSelectionOffSet) * left);
                     right = (int)(mSelectionOffSet * nextTitle.Right + (1.0f - mSelectionOffSet) * right);
@@ -159,7 +165,7 @@ namespace Domaine_informatique_istv
 
                 canvas.DrawRect(left, height - mSelectedIndicatorThickness, right, height, mSelectedIndicatorPaint);
 
-                //Create vertical dividers between tabs
+                //Créer la barre séparant les différents onglet
                 int separatorTop = (height - dividerHeightPx) / 2;
                 for(int i = 0; i < ChildCount; i++)
                 {
@@ -167,11 +173,12 @@ namespace Domaine_informatique_istv
                     mDividerPaint.Color = GetColorFromInteger(tabColorizer.GetDividerColor(i));
                     canvas.DrawLine(child.Right, separatorTop, child.Right, separatorTop + dividerHeightPx, mDividerPaint);
                 }
-
+                //Dessine la bordure de la bande
                 canvas.DrawRect(0, height - mBottomBorderThickness, Width, height, mBottomBorderPaint);
             }
         }
 
+        //Melange les 2 couleurs dont les codes en entier sont en parametre
         private int blendColor(int color1, int color2, float ratio)
         {
             float inverseRatio = 1f - ratio;
